@@ -1,0 +1,12 @@
+[package]
+name = "the-code-inspector"
+version = "0.1.0"
+edition = "2021"
+authors = ["Mældrøm"]
+
+[lints.clippy]
+pedantic = "deny"
+
+[dependencies]
+clap = { version = "4.5.16", features = ["derive", "unicode"] }
+regex = "1.10.6"
